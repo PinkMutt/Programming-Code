@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="350.0" prefWidth="250.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CalculatorController">
+   <children>
+      <TextField fx:id="textField" layoutX="7.0" layoutY="8.0" prefHeight="40.0" prefWidth="240.0" />
+      <GridPane layoutX="11.0" layoutY="61.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="269.0" prefWidth="231.0">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="293.0" minWidth="10.0" prefWidth="68.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="293.0" minWidth="10.0" prefWidth="62.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="453.0" minWidth="10.0" prefWidth="58.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="453.0" minWidth="10.0" prefWidth="63.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Button fx:id="twoButton" mnemonicParsing="false" onAction="#displayTwo" prefHeight="113.0" prefWidth="136.0" text="2" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <Button fx:id="negativeButton" mnemonicParsing="false" prefHeight="68.0" prefWidth="72.0" text="+/-" GridPane.columnIndex="1" />
+            <Button fx:id="sevenButton" layoutX="81.0" layoutY="24.0" mnemonicParsing="false" onAction="#displaySeven" prefHeight="183.0" prefWidth="231.0" text="7" GridPane.rowIndex="1" />
+            <Button fx:id="eightButton" layoutX="81.0" layoutY="24.0" mnemonicParsing="false" onAction="#displayEight" prefHeight="209.0" prefWidth="274.0" text="8" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Button fx:id="fiveButton" layoutX="81.0" layoutY="24.0" mnemonicParsing="false" onAction="#displayFive" prefHeight="131.0" prefWidth="112.0" text="5" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Button fx:id="oneButton" layoutX="10.0" layoutY="24.0" mnemonicParsing="false" onAction="#displayOne" prefHeight="109.0" prefWidth="184.0" text="1" GridPane.rowIndex="3" />
+            <Button fx:id="fourButton" layoutX="10.0" layoutY="24.0" mnemonicParsing="false" onAction="#displayFour" prefHeight="161.0" prefWidth="167.0" text="4" GridPane.rowIndex="2" />
+            <Button fx:id="nineButton" layoutX="81.0" layoutY="183.0" mnemonicParsing="false" onAction="#displayNine" prefHeight="177.0" prefWidth="156.0" text="9" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <Button fx:id="percentButton" layoutX="81.0" layoutY="24.0" mnemonicParsing="false" prefHeight="169.0" prefWidth="182.0" text="\%" GridPane.columnIndex="2" />
+            <Button fx:id="sixButton" layoutX="162.0" layoutY="77.0" mnemonicParsing="false" onAction="#displaySix" prefHeight="124.0" prefWidth="78.0" text="6" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <Button fx:id="threeButton" layoutX="162.0" layoutY="130.0" mnemonicParsing="false" onAction="#displayThree" prefHeight="60.0" prefWidth="73.0" text="3" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+            <Button fx:id="zeroButton" layoutX="162.0" layoutY="183.0" mnemonicParsing="false" onAction="#displayZero" prefHeight="116.0" prefWidth="140.0" text="0" GridPane.rowIndex="4" />
+            <Button fx:id="equalButton" layoutX="10.0" layoutY="236.0" mnemonicParsing="false" onAction="#displayResult" prefHeight="90.0" prefWidth="97.0" text="=" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+             <Button fx:id="additionButton" layoutX="162.0" layoutY="236.0" mnemonicParsing="false" onAction="#add" prefHeight="152.0" prefWidth="114.0" text="+" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+            <Button fx:id="divisionButton" layoutX="81.0" layoutY="236.0" mnemonicParsing="false" onAction="#divide" prefHeight="76.0" prefWidth="119.0" text="÷" GridPane.columnIndex="3" />
+            <Button fx:id="subtractionButton" layoutX="243.0" layoutY="183.0" mnemonicParsing="false" onAction="#subtract" prefHeight="110.0" prefWidth="111.0" text="-" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+            <Button fx:id="multiplicationButton" layoutX="243.0" layoutY="130.0" mnemonicParsing="false" onAction="#multiply" prefHeight="65.0" prefWidth="80.0" text="×" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+            <Button fx:id="decimalButton" layoutX="243.0" layoutY="77.0" mnemonicParsing="false" prefHeight="107.0" prefWidth="119.0" text="." GridPane.columnIndex="2" GridPane.rowIndex="4" />
+            <Button fx:id="clearButton" layoutX="74.0" layoutY="24.0" mnemonicParsing="false" onAction="#displayClear" prefHeight="69.0" prefWidth="103.0" text="C" />
+         </children>
+      </GridPane>
+   </children>
+</Pane>

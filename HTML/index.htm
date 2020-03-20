@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>Pink Mutt's page</title>
+<style>
+ul.nav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333333;
+}
+li.nav {
+	float: left;
+}
+li a.nav {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 16px;
+	text-decoration: none;
+}
+li a.nav:hover {
+	background-color: #111111;
+}
+body {
+	background-image:url('sakura_flowers_bloom.jpg');
+}
+#h01 {
+	color:white;
+	font-family:Arial;
+}
+h2.basic {
+	color:white;
+	font-family:Arial;
+}
+li.basic {
+	font-family:Arial;
+}
+table, th, td {
+	border:1px solid black;
+	border-collapse: collapse;
+}
+th, td {
+	padding: 15px;
+	text-align: left;
+	}
+</style>
+</head>
+<body style="background-color:#ff99d1;">
+	<img title="The Bois" src="wutugh.jpg" alt"My friends" width"480" height"480">
+	<h1 style="color:white; font-family:Arial;">This is Pink Mutt's Page!</h1>
+	<ul class="nav">
+		<li class="nav"><a class="nav" href="#home">Home</a></li>
+		<li class="nav"><a class="nav" href="#news">News</a></li>
+		<li class="nav"><a class="nav" href="#contact">Contact</a></li>
+		<li class="nav"><a class="nav" href="#about">About</a></li>
+	</ul>
+	<p style="font-family:Arial; font-size:300%;"> This paragraph contains<br>a line break.</p>
+	<pre style="font-family:Arial;"><b>Welcome to my page!</b>
+	<a href="https://archive.org/">Click to start learning!</a>
+	<a href="#C1">HTML Text Formatting</a>
+	<a href="#C2">HTML Quotations</a>
+	<a href="#C3">CSS Styling</a>
+	<a href="#C4">HTML Links</a>
+	<a href="#C5">HTML Link as a Image</a>
+	<a href="#C6">HTML JavaScript</a>
+	</pre>
+	<button type="button"
+	onclick="document.getElementById('demo').innerHTML = Date()">Click me to display Date and Time</button>
+	<p id="demo"></p>
+	<hr>
+	<h2 id="C1" style="color:white; font-family:Arial;">HTML Text Formatting Task List</h2>
+	<ul>
+		<li style="font-family:Arial;"><b>Bold text</b></li>
+		<li style="font-family:Arial;"><i>Italic text</i></li>
+		<li style="font-family:Arial;"><strong>Important text</strong></li>
+		<li style="font-family:Arial;"><em>Emphasized text</em></li>
+		<li style="font-family:Arial;"><mark>Marked or Highlighted text</mark></li>
+		<li style="font-family:Arial;"><small>Small text</small></li>
+		<li style="font-family:Arial;"><del>Deleted text</del></li>
+		<li style="font-family:Arial;"><ins>Inserted text</ins></li>
+		<li style="font-family:Arial;"><sub>Subscript text</sub></li>
+		<li style="font-family:Arial;"><sup>Superscript text</sup></li>
+	</ul>
+	<h2 id="C2" class="basic">HTML Quotations Tasks List</h2>
+	<ol>
+		<li style="font-family:Arial;"><q>HTML Quotations</q></li>
+		<li style="font-family:Arial;"><blockquote cite="https://ia802608.us.archive.org/0/items/theartofwar17405gut/17405.txt">Sun Tzu said: HTML Block Quote. This will indent.</blockquote></li>
+		<li style="font-family:Arial;">HTML Abbreviation <abbr title="Light Amplification by Stimulated Emission of Radiation">Laser</abbr></li>
+		<li style="font-family:Arial;"><address>
+						HTML Address by John Doe.<br>
+						Visit us at:<br>
+						Example.com<br>
+						</address>
+						<li style="font-family:Arial;">HTML cite for Work Title<cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p></li>
+						<li style="font-family:Arial;">HTML Bi-Directional Override <bdo dir="rtl">This text will be written from right to left</bdo></li>
+	<hr>
+	<h2 id="C3" class="basic">CSS styling</h2>	
+	<p style="border: 1px solid powderblue;">CSS Border<br>CSS Padding<br>CSS Margin</p>
+	<h2 id="C4" class="basic">HTML Links</h2> 
+	<ol>
+		<li class="basic"><a href="https://ia802608.us.archive.org/0/items/theartofwar17405gut/17405.txt">link text</a></li>
+		<li class="basic"><a href="https://ia802608.us.archive.org/0/items/theartofwar17405gut/17405.txt" target="_blank">blank text- opens in new tab/window</a></li>
+		<li class="basic"><a href="https://cdn.discordapp.com/attachments/541781352664530944/674755858219139082/video0.mp4" target="_self">self- opens linked document in the same window or default</a></li>
+		<li class="basic"><a href="https://cdn.discordapp.com/attachments/541781352664530944/674755858219139082/video0.mp4" target="_parent">parent- opens the linked document in the parent frame.</a></li>
+		<li class="basic"><a href="https://cdn.discordapp.com/attachments/541781352664530944/674755858219139082/video0.mp4" target="_top">top- opens the linked document.</a></li>
+	<hr>		
+	<h2 id="C5" class="basic">HTML link as a Image</h2>
+	<a href="https://www.crunchyroll.com/">
+		<img src="efc.jpg" alt="HTML Image link" style="width=42px;height=42px;"></a>
+	<hr>
+	<div style="background-image:url('sakura_flowers_bloom.jpg');width:500px;height:250px">
+	Images<br>
+	Going to make a map<br>
+	Say something very interesting.<br>
+	</div>
+	<table>
+		<tr>
+			<th>Names</th>
+			<th>Detail</th>
+		</tr>
+		<tr>
+			<td>Dragon</td>
+			<td>Very Cool guy</td>
+		</tr>
+	</table>
+	<hr>
+	<h2 id=C6 class="basic">HTML JavaScript</h2>
+	<p id="HelloWorld"></p>
+	<script>
+	document.getElementById("HelloWorld").innerHTML = "Hello Javascript!";
+	</script>
+</body>
+</html>
