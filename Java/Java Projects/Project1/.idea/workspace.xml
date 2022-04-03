@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="98f97a1e-dabe-498e-835d-5e7959038c84" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HelloWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HTML/.index.htm.swp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DrawConstructs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/JavaCode/Calculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/JavaCode/CalculatorController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/JavaCode/Hello.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JavaPracticeCode/gay-sex-video-3-970x475.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JavaPracticeCode/src/Hello.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../JavaPracticeCode/src/Hello.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Project1/.idea/checkstyle-idea.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Project1/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Project1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Project1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Project1/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Project1/Project1.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="JupyterTrust" id="21be564d-eb13-4ceb-8278-0f861b34af68" />
+  <component name="ProjectId" id="1l2JHwQYXI9eTtsYXekAyVfTDC8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1606636511203" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.2440239" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.idesettings.debugger.capture" />
+  </component>
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="Controller" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Controller" />
+      <module name="Project1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Controller2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Controller2" />
+      <module name="Project1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HelloWorld" />
+      <module name="Project1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="Project1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Controller2" />
+        <item itemvalue="Application.Controller" />
+        <item itemvalue="Application.HelloWorld" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="98f97a1e-dabe-498e-835d-5e7959038c84" name="Default Changelist" comment="" />
+      <created>1556626504353</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1556626504353</updated>
+      <workItem from="1556626508836" duration="2350000" />
+      <workItem from="1606636459476" duration="60000" />
+      <workItem from="1606785837214" duration="613000" />
+      <workItem from="1606788650090" duration="21000" />
+      <workItem from="1606789173780" duration="1094000" />
+      <workItem from="1606790490434" duration="7868000" />
+      <workItem from="1606926377690" duration="4429000" />
+      <workItem from="1607044585463" duration="945000" />
+      <workItem from="1607045545145" duration="7781000" />
+      <workItem from="1607096245704" duration="4067000" />
+      <workItem from="1610504717113" duration="1628000" />
+      <workItem from="1610739057619" duration="663000" />
+      <workItem from="1611979287928" duration="1155000" />
+      <workItem from="1612403874450" duration="3944000" />
+      <workItem from="1612668982576" duration="302000" />
+      <workItem from="1613779149559" duration="1832000" />
+      <workItem from="1615262936199" duration="1148000" />
+      <workItem from="1615410579111" duration="1885000" />
+      <workItem from="1615858297957" duration="4792000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1865" height="326" key="GridCell.Tab.0.bottom" timestamp="1615863132500">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1865" height="326" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.-113.1920.1050@0.0.1920.1050" timestamp="1615863132500" />
+    <state width="1865" height="326" key="GridCell.Tab.0.center" timestamp="1615863132499">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1865" height="326" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.-113.1920.1050@0.0.1920.1050" timestamp="1615863132499" />
+    <state width="1865" height="326" key="GridCell.Tab.0.left" timestamp="1615863132499">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1865" height="326" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.-113.1920.1050@0.0.1920.1050" timestamp="1615863132499" />
+    <state width="1865" height="326" key="GridCell.Tab.0.right" timestamp="1615863132499">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1865" height="326" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.-113.1920.1050@0.0.1920.1050" timestamp="1615863132499" />
+    <state width="1865" height="326" key="GridCell.Tab.1.bottom" timestamp="1615863132500">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1865" height="326" key="GridCell.Tab.1.bottom/0.0.1920.1050/-1920.-113.1920.1050@0.0.1920.1050" timestamp="1615863132500" />
+    <state width="1865" height="326" key="GridCell.Tab.1.center" timestamp="1615863132500">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1865" height="326" key="GridCell.Tab.1.center/0.0.1920.1050/-1920.-113.1920.1050@0.0.1920.1050" timestamp="1615863132500" />
+    <state width="1865" height="326" key="GridCell.Tab.1.left" timestamp="1615863132500">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1865" height="326" key="GridCell.Tab.1.left/0.0.1920.1050/-1920.-113.1920.1050@0.0.1920.1050" timestamp="1615863132500" />
+    <state width="1865" height="326" key="GridCell.Tab.1.right" timestamp="1615863132500">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1865" height="326" key="GridCell.Tab.1.right/0.0.1920.1050/-1920.-113.1920.1050@0.0.1920.1050" timestamp="1615863132500" />
+    <state x="344" y="83" key="SettingsEditor" timestamp="1615861498213">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="344" y="83" key="SettingsEditor/0.0.1920.1050/-1920.-113.1920.1050@0.0.1920.1050" timestamp="1615861498213" />
+    <state x="0" y="0" key="new project wizard" timestamp="1610739119180">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="0" y="0" key="new project wizard/0.0.1920.1050/-1920.-113.1920.1050@0.0.1920.1050" timestamp="1610739119180" />
+    <state x="58" y="15" width="840" height="1034" key="search.everywhere.popup" timestamp="1615859460030">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="58" y="15" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1050/-1920.-113.1920.1050@0.0.1920.1050" timestamp="1615859460030" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Controller.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Controller.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Controller.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Controller.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
