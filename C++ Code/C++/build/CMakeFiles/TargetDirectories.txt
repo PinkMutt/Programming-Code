@@ -1,0 +1,3 @@
+C:/Users/Liudr/OneDrive/Desktop/Programming Code/C++ Code/C++/build/CMakeFiles/helloworld.dir
+C:/Users/Liudr/OneDrive/Desktop/Programming Code/C++ Code/C++/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Liudr/OneDrive/Desktop/Programming Code/C++ Code/C++/build/CMakeFiles/ZERO_CHECK.dir

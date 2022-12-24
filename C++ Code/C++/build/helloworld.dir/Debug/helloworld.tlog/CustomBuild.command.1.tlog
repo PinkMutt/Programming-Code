@@ -1,0 +1,10 @@
+^C:\USERS\LIUDR\ONEDRIVE\DESKTOP\PROGRAMMING CODE\C++ CODE\C++\PROJECTS\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Liudr/OneDrive/Desktop/Programming Code/C++ Code/C++/projects" "-BC:/Users/Liudr/OneDrive/Desktop/Programming Code/C++ Code/C++/build" --check-stamp-file "C:/Users/Liudr/OneDrive/Desktop/Programming Code/C++ Code/C++/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

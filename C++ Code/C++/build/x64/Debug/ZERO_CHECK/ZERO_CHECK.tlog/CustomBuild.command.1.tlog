@@ -1,0 +1,10 @@
+^C:\USERS\LIUDR\ONEDRIVE\DESKTOP\PROGRAMMING CODE\C++ CODE\C++\BUILD\CMAKEFILES\FB0003F8D3B1BC628991EB2E5983CB34\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Liudr/OneDrive/Desktop/Programming Code/C++ Code/C++/projects" "-BC:/Users/Liudr/OneDrive/Desktop/Programming Code/C++ Code/C++/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/Liudr/OneDrive/Desktop/Programming Code/C++ Code/C++/build/helloworld.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
